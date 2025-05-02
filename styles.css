@@ -345,6 +345,9 @@ header nav ul li:hover::after{
 }
 
 @media screen and (max-width: 1020px){
+    body{
+        overflow: auto;
+    }
 
     .container{
         display: flex;
